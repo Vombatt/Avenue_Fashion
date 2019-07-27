@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Montserrat', sans-serif; 
     padding: 0%;
@@ -63,7 +64,6 @@ a{
     display: flex;
     font-size: 15px;
     line-height: 36px;
-    color: #999999;
     align-items: center;
 }
 
@@ -71,20 +71,27 @@ a{
     display: flex;
     width: 107px;
     padding: 0 20px;
+    color: #999999;
 }
 
-.icon-cart:hover{
- background-color: #00c8c8;
+
+.icon-cart:hover {
+    background-color: #00c8c8;
+    color: white;
+    cursor: pointer;
 }
 
-.auth-item:hover{
-    background-color: #00c8c8;  
+.icon-cart:hover a{
+  color: white;  
+}
+.auth-item:hover {
+    background-color: #00c8c8;
+    color: white;
+    cursor: pointer;
 }
 
-.item1:hover{
-    background-color: #00c8c8;  
-}
-
-a:hover{
+.auth-item:hover a{
     color: white;
 }
+
+
