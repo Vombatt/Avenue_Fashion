@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-BoldItalic.eot');
+    src: url('Montserrat-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-BoldItalic.woff2') format('woff2'),
+        url('Montserrat-BoldItalic.woff') format('woff'),
+        url('Montserrat-BoldItalic.ttf') format('truetype'),
+        url('Montserrat-BoldItalic.svg#Montserrat-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
 body {
     font-family: 'Montserrat', sans-serif; 
     padding: 0%;
@@ -7,6 +18,7 @@ body {
 a{
     color: #999999;
     text-decoration: none;
+    
 }
 
 .header{
@@ -73,18 +85,24 @@ a{
     padding: 0 20px;
 }
 
-.icon-cart:hover{
- background-color: #00c8c8;
+.a{color: white;
 }
 
-.auth-item:hover{
+.icon-cart:hover a{
+    background-color: #00c8c8;
+    color: white;
+    cursor: pointer;
+}
+
+.auth-item:hover a{
+    background-color: #00c8c8;
+    color: white;
+    cursor: pointer;
+}
+
+.item1:hover a{
     background-color: #00c8c8;  
-}
-
-.item1:hover{
-    background-color: #00c8c8;  
-}
-
-a:hover{
+    cursor: pointer;
     color: white;
 }
+
