@@ -69,6 +69,17 @@ a{
     align-items: center;
 }
 
+.angle-down{
+    appearance:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 10px;
+    padding: 10px;
+    font-size: 20px; 
+    height: 10px;
+    border: #333333;
+    background: url(images/angle-down-solid.svg) no-repeat center;
+}
 .icon-cart{
     display: flex;
     width: 107px;
@@ -96,4 +107,20 @@ a{
     color: white;
 }
 
+.icon-cart:hover .angle-down{
+    border: #00c8c8;
+}
 
+.photo-ave{
+    width: 100%;
+    height: 920px;
+    background-color:#f8f8f8; 
+}
+ 
+
+.photo-alignment{
+    display: flex;
+    justify-content: center;
+    max-width: 1163px;
+    width: 100%;
+}
