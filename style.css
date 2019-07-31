@@ -73,13 +73,17 @@ a{
     appearance:none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    width: 10px;
-    padding: 10px;
-    font-size: 20px; 
-    height: 10px;
+    padding-right:  15px;
+    color:#999999;
+    font-size: 15px; 
+    height: 20px;
     border: #333333;
-    background: url(images/angle-down-solid.svg) no-repeat center;
+    background: url(images/angle-down-solid.svg) no-repeat right;
+    outline: none;
 }
+
+
+
 .icon-cart{
     display: flex;
     width: 107px;
@@ -109,7 +113,10 @@ a{
 
 .icon-cart:hover .angle-down{
     border: #00c8c8;
+    color: white;
+    background: url(images/angle-down-solid-white.svg) no-repeat right;
 }
+
 
 .photo-ave{
     width: 100%;
@@ -124,3 +131,4 @@ a{
     max-width: 1163px;
     width: 100%;
 }
+
